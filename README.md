@@ -1,21 +1,21 @@
-# web-search-mcp (duckduckgoを利用したWeb検索MCP-Server)
+# web-search-mcp (DuckDuckGo利用Web検索MCP-Server)
 
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0)
 [![Node.js](https://img.shields.io/badge/Node.js-18%2B-green.svg)](https://nodejs.org/)
 [![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20macOS-blue.svg)](#)
 [![MCP](https://img.shields.io/badge/MCP-Compatible-purple.svg)](https://modelcontextprotocol.io/)
 
-AIエージェントからWeb検索する時に使えます。duckduckgoを利用しています。
+AIエージェントからWeb検索する時に使えます。DuckDuckGoを利用しています。
 
-DuckDuckGo
-公式検索APIは完全に無料で、APIキーの取得も不要です。
-登録や面倒な手続きなしで、手軽にAIエージェントにWeb検索機能を組み込むことができます。
-主なメリットと注意点は以下の通りです：
-API Key不要: 事前登録が一切不要で、すぐに利用可能。
-完全無料: 開発時の金銭コストを抑えられる。
-利用制限: 匿名性を維持するため、1日のクエリ数などに一定の使用制限があります。
-LangChainなどのフレームワークでも「DuckDuckGo Search」として標準サポートされているため、
-AIのRAG（検索拡張生成）システム開発などでもよく利用されています。
+## DuckDuckGo
+- 公式検索APIは完全に無料で、APIキーの取得も不要です。
+- 登録や面倒な手続きなしで、手軽にAIエージェントにWeb検索機能を組み込むことができます。
+
+- 主なメリットと注意点は以下の通りです： API Key不要: 事前登録が一切不要で、すぐに利用可能。
+- 完全無料: 開発時の金銭コストを抑えられる。
+- 利用制限: 匿名性を維持するため、1日のクエリ数などに一定の使用制限があります。
+- LangChainなどのフレームワークでも「DuckDuckGo Search」として標準サポートされているため、
+- AIのRAG（検索拡張生成）システム開発などでもよく利用されています。
 
 
 ## 🦞 OpenClaw への設定
