@@ -1,13 +1,13 @@
-# web-search-mcp (DuckDuckGo利用Web検索MCP-Server)
+# web-search-mcp (DuckDuckGo利用Web検索無料MCP-Server)
 
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0)
 [![Node.js](https://img.shields.io/badge/Node.js-18%2B-green.svg)](https://nodejs.org/)
 [![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20macOS-blue.svg)](#)
 [![MCP](https://img.shields.io/badge/MCP-Compatible-purple.svg)](https://modelcontextprotocol.io/)
 
-AIエージェントからWeb検索する時に使えます。DuckDuckGoを利用しています。
+Dockerコンテナ仮想化環境からWeb検索する時などに使えます。DuckDuckGoを利用しているので無料です。
 
-## DuckDuckGo
+## DuckDuckGo (無料)
 - 公式検索APIは完全に無料で、APIキーの取得も不要です。
 - 登録や面倒な手続きなしで、手軽にAIエージェントにWeb検索機能を組み込むことができます。
 
@@ -28,7 +28,7 @@ AIエージェントからWeb検索する時に使えます。DuckDuckGoを利�
 ```bash
 # Linux / WSL
 openclaw mcp set web-search-mcp '{
-  "command": "node",
+  "command": "python",
   "args": ["/home/YourName/web-search-mcp/web-search-mcp.py"]
 }'
 
@@ -42,7 +42,7 @@ openclaw mcp set web-search-mcp '{
   "mcp": {
     "servers": {
       "web-search-mcp": {
-        "command": "node",
+        "command": "python",
         "args": [
           "/home/YourName/web-search-mcp/web-search-mcp.py"
         ]
@@ -58,7 +58,7 @@ openclaw mcp set web-search-mcp '{
 ```yaml
 mcp_servers:
  web-search-mcp:
-    command: node
+    command: python
     args:
     - /home/YourName/web-search-mcp/web-search-mcp.py
     sessionIdleTtlMs: 600000
@@ -91,6 +91,7 @@ Issue・Pull Request 歓迎です。
 ## 📚 参考資料
 - [Model Context Protocol (MCP) 公式](https://modelcontextprotocol.io/)
 - [Claude Desktop MCP Documentation](https://docs.anthropic.com/en/docs/claude-code/overview)
+- [Docker](https://www.docker.com/ja-jp/)
 - [DuckDuckGo](https://duckduckgo.com/)
 - [🦞OpenClaw](https://openclaw.ai/)
 - [Hermes-Agent](https://hermes-agent.nousresearch.com/docs/)
