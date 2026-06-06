@@ -28,7 +28,7 @@ Dockerコンテナ仮想化環境からWeb検索する時などに使えます�
 ```bash
 # Linux / WSL
 openclaw mcp set web-search-mcp '{
-  "command": "python",
+  "command": "uv",
   "args": ["/home/YourName/web-search-mcp/web-search-mcp.py"]
 }'
 
@@ -42,7 +42,7 @@ openclaw mcp set web-search-mcp '{
   "mcp": {
     "servers": {
       "web-search-mcp": {
-        "command": "python",
+        "command": "uv",
         "args": [
           "/home/YourName/web-search-mcp/web-search-mcp.py"
         ]
@@ -58,7 +58,7 @@ openclaw mcp set web-search-mcp '{
 ```yaml
 mcp_servers:
  web-search-mcp:
-    command: python
+    command: uv
     args:
     - /home/YourName/web-search-mcp/web-search-mcp.py
     sessionIdleTtlMs: 600000
