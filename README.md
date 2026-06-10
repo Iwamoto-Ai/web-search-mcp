@@ -56,12 +56,11 @@ openclaw mcp set web-search-mcp '{
 `.hermes/config.yaml` を直接編集。
 
 ```yaml
-mcp_servers:
- web-search-mcp:
-    command: uv
+  web_search_and_fetch:
     args:
     - /home/YourName/web-search-mcp/web-search-mcp.py
-    sessionIdleTtlMs: 600000
+    command: /home/YourName/web-search-mcp/.venv/bin/python
+    type: stdio
 ```
 
 ---
