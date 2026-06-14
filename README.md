@@ -118,7 +118,7 @@ web_search_and_fetch:
 
 Licensed under the Apache License, Version 2.0 - 詳細は [LICENSE](LICENSE) を参照してください。
 
-Copyright 2026 岩本 剛
+Copyright 2026 岩本 剛    All rights reserved.
 
 ## 🤝 コントリビュート
 
