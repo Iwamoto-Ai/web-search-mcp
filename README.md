@@ -5,7 +5,7 @@
 [![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20WSL2-blue.svg)](https://github.com/Iwamoto-Ai/web-search-mcp)
 [![MCP](https://img.shields.io/badge/MCP-Compatible-purple.svg)](https://modelcontextprotocol.io/)
 
-Docker コンテナや WSL などの仮想化・隔離環境から Web 検索する時などに使えます。DuckDuckGo を利用しているので無料です。
+Dockerコンテナなどの仮想化・隔離環境から Web 検索する時などに使えます。DuckDuckGo を利用しているので無料です。
 
 ## ✨ 機能
 
